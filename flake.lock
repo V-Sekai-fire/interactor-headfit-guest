@@ -1,0 +1,129 @@
+{
+  "nodes": {
+    "drape": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1795376595,
+        "narHash": "sha256-hNan+PHTsA6nQDBTHuEueAH3txKKn6Dvhl0aqT/KHlM=",
+        "owner": "V-Sekai-fire",
+        "repo": "interactor-drape",
+        "rev": "8f0a1bba7eca3340bfebeb98a68bdc65e7601655",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "interactor-drape",
+        "type": "github"
+      }
+    },
+    "guest-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793572690,
+        "narHash": "sha256-yrJRkhE61FmwSqZAJwb0kpCER0EEmNTwwlVCTsRCoEQ=",
+        "owner": "V-Sekai-fire",
+        "repo": "contract-guest-common",
+        "rev": "9ffd906d14a6773fedb6b00a269baf464cde7a89",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "contract-guest-common",
+        "type": "github"
+      }
+    },
+    "guest-runtime": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1795376595,
+        "narHash": "sha256-ashGEmfOi4gwnaOnUXJQwgqCbJSk4u1MBINThDyQ/UM=",
+        "owner": "V-Sekai-fire",
+        "repo": "contract-guest-runtime",
+        "rev": "e093f7d2f7fe9c49899195810a765fc29f2f2c82",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "contract-guest-runtime",
+        "type": "github"
+      }
+    },
+    "lbfgsb": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793299103,
+        "narHash": "sha256-QA4oLeFdBG89VtApYOnwtaCG5KVDCQjEHSzHoCTq7JA=",
+        "owner": "V-Sekai-fire",
+        "repo": "contract-lbfgsb",
+        "rev": "449bb7d6a375ee534ffc8cc85dba7aa6076676a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "contract-lbfgsb",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1795234589,
+        "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "riscv64-sysroot": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793572743,
+        "narHash": "sha256-+XN+RBKHCe6eYEkTWORlLSB8WjRiu8sF5D05Z8BGOjI=",
+        "owner": "V-Sekai-fire",
+        "repo": "repository-riscv64-sysroot",
+        "rev": "585de9e0cfe15fc14f9961083d857d609592de42",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "repository-riscv64-sysroot",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "drape": "drape",
+        "guest-common": "guest-common",
+        "guest-runtime": "guest-runtime",
+        "lbfgsb": "lbfgsb",
+        "nixpkgs": "nixpkgs",
+        "riscv64-sysroot": "riscv64-sysroot",
+        "sinew-align": "sinew-align"
+      }
+    },
+    "sinew-align": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792942092,
+        "narHash": "sha256-rtJzAJAjMxqIZF659WKlRPOOxsoPKUpfy/4DuSumHlQ=",
+        "owner": "V-Sekai-fire",
+        "repo": "contract-sinew-align",
+        "rev": "7e00cdb42aeba6dcc8e263898096a6c4c55e2a47",
+        "type": "github"
+      },
+      "original": {
+        "owner": "V-Sekai-fire",
+        "repo": "contract-sinew-align",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
